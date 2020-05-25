@@ -12,20 +12,17 @@ We have import the pretrained model or load the resnet50 model
 Freeze all layers of the model expext the last layers as we have to make changes in that layer
 
 # Step 3:
-Make a function that return the FC Head. This is the layer creation to train our model
-
-# Step 4:
 Now add the layer which we have created to the resnet layers where we have freezed all the layers
 
-# Step 5:
+# Step 4:
 Now load the dataset which you have to train and this should be in the folder and the output depends on the folder name
-# Step 6:
+# Step 5:
 Now compile the model and we have use imagedatagenerator to generate our images for the training
 
-# Step 7:
+# Step 6:
 Now finally train the model and after the epochs completed then save that model
 
-# Step 8:
+# Step 7:
 Now load the saved model to test our model.
 
 # Step 9:
