@@ -6,7 +6,7 @@ To create a model which detect the face or make a face detection model using the
 
 We have used the resnet50 to train the model with our images
 # Step 1:
-We have import the pretrained model or load the mobilenet model
+We have import the pretrained model or load the resnet50 model
 
 # Step 2:
 Freeze all layers of the model expext the last layers as we have to make changes in that layer
@@ -15,7 +15,7 @@ Freeze all layers of the model expext the last layers as we have to make changes
 Make a function that return the FC Head. This is the layer creation to train our model
 
 # Step 4:
-Now add the layer which we have created to the MobileNet layers where we have freezed all the layers
+Now add the layer which we have created to the resnet layers where we have freezed all the layers
 
 # Step 5:
 Now load the dataset which you have to train and this should be in the folder and the output depends on the folder name
